@@ -1,0 +1,76 @@
+.congratulations {
+    background: linear-gradient(118deg, #7367f0, rgba(115, 103, 240, 0.7));
+    position: relative;
+}
+
+.congrates_img-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    opacity: 96;
+}
+
+.congrates_img-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 175px;
+    opacity: 96;
+}
+
+.congrates_avatar {
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+    position: relative;
+}
+.congrates_avatar-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    background: rgba(115, 103, 240, 1);
+    border-radius: 50%;
+}
+.attendance-login-icon {
+    color: white !important;
+    font-size: 25px;
+    cursor: pointer;
+    background: #00b388;
+    padding: 5px 15px;
+    border-radius: 50%;
+}
+.attendance-logout-icon{
+    color: white !important;
+    font-size: 25px;
+    cursor: pointer;
+    background: #bb2323;
+    padding: 5px 15px;
+    border-radius: 50%;
+}
+.search_attendance_style{
+    margin-top: 31px;
+    margin-bottom: 0px !important;
+    border: 1px solid #26282d;
+    padding: 0px 15px;
+    border-radius: 8px;
+    border-color: #ddd;
+}
+
+.attendance_search{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.check_in_time{
+    padding-left: 10px !important;
+    padding-right: 2px !important;
+    text-align: center;
+}
+.check_out_time{
+    padding-left: 10px !important;
+    padding-right: 2px !important;
+    text-align: center;
+}
